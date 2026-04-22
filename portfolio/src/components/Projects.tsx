@@ -44,7 +44,7 @@ export default function Projects() {
             我的<span className="bg-gradient-to-r from-[#667eea] to-[#764ba2] bg-clip-text text-transparent">项目</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            以下是我近期完成的一些项目，涵盖了 Web 应用、移动端开发等多个领域
+            以下是我近期完成的一些项目，涵盖了微信小程序、企业级应用、保险等多个领域
           </p>
           <div className="w-20 h-1 bg-gradient-to-r from-[#667eea] to-[#764ba2] mx-auto rounded-full mt-4" />
         </motion.div>
@@ -65,9 +65,12 @@ export default function Projects() {
             >
               {/* 项目图片 */}
               <div className="relative h-48 sm:h-56 overflow-hidden bg-gradient-to-br from-[#667eea]/20 to-[#764ba2]/20">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-6xl">📱</span>
-                </div>
+                <img
+                  src={project.image}
+                  alt={project.name}
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                />
                 {/* 悬停遮罩 */}
                 <motion.div
                   initial={{ opacity: 0 }}

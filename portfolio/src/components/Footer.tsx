@@ -23,7 +23,7 @@ export default function Footer() {
             viewport={{ once: true }}
             className="flex items-center gap-2 text-gray-500 text-sm"
           >
-            <span>© {currentYear} 张三. 用</span>
+            <span>© {currentYear} Hedy Ren. 用</span>
             <Heart className="w-4 h-4 text-red-500 fill-red-500" />
             <span>和代码构建</span>
           </motion.div>

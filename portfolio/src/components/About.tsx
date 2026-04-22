@@ -65,25 +65,19 @@ export default function About() {
             <h3 className="text-xl font-semibold mb-6 text-white">个人简介</h3>
             <div className="space-y-4 text-gray-400 leading-relaxed">
               <p>
-                我是一名充满热情的全栈开发工程师，拥有 5 年以上的开发经验。
-                专注于构建高性能、可扩展的 Web 应用程序。
+                拥有十五年IT领域经验，其中十年深耕软件开发，涵盖后台与应用软件开发，参与和主导过保险、医药、旅游等多个行业的软件开发项目。全程参与软件开发生命周期，具备微服务治理、高并发优化等核心技术能力，能够有效解决技术难题并推动项目顺利落地。
               </p>
               <p>
-                在工作中，我注重代码质量和用户体验，善于将复杂的问题分解为可管理的模块。
-                我相信好的软件不仅要功能完善，还要易于维护和扩展。
-              </p>
-              <p>
-                除了编程，我还热衷于学习新技术和分享知识。
-                经常参与开源项目，并在技术社区发表文章。
+                此外，四年微信小程序项目管理经验，持有信息系统项目管理师和PMP认证，熟悉项目管理工具（如Project、Jira、禅道、Redmine等），同时具备流程优化能力，以技术驱动项目管理，打造过成熟高效的研发团队，助力提升项目效率与成功率，为团队与客户创造价值。
               </p>
             </div>
 
             {/* 统计数据 */}
             <div className="grid grid-cols-3 gap-6 mt-8">
               {[
-                { number: '5+', label: '年经验' },
-                { number: '50+', label: '项目完成' },
-                { number: '20+', label: '技术栈' }
+                { number: '15+', label: '年IT经验' },
+                { number: '10+', label: '年软件开发' },
+                { number: '4+', label: '年项目管理' }
               ].map((stat) => (
                 <motion.div
                   key={stat.label}

@@ -33,7 +33,7 @@ export default function Hero() {
           className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4"
         >
           <span className="bg-gradient-to-r from-[#667eea] to-[#764ba2] bg-clip-text text-transparent">
-            张三
+            Hedy Ren
           </span>
         </motion.h1>
 
@@ -44,7 +44,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-xl sm:text-2xl text-gray-400 mb-6"
         >
-          全栈开发工程师
+          Java开发组长 / 项目经理
         </motion.p>
 
         {/* 简介 */}
@@ -54,8 +54,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.5 }}
           className="text-gray-400 text-lg max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          热爱编程，专注于构建高质量的用户体验。
-          擅长 React、TypeScript 和 Node.js，致力于用技术创造价值。
+          拥有十五年IT领域经验，其中十年深耕软件开发，涵盖后台与应用软件开发，参与和主导过保险、医药、旅游等多个行业的软件开发项目。全程参与软件开发生命周期，具备微服务治理、高并发优化等核心技术能力，能够有效解决技术难题并推动项目顺利落地。此外，四年微信小程序项目管理经验，持有信息系统项目管理师和PMP认证，熟悉项目管理工具（如Project、Jira、禅道、Redmine等），同时具备流程优化能力，以技术驱动项目管理，打造过成熟高效的研发团队，助力提升项目效率与成功率，为团队与客户创造价值。
         </motion.p>
 
         {/* CTA 按钮 */}

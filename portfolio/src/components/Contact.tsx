@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, Github, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Github } from 'lucide-react';
 
 /**
  * Contact 组件 - 联系方式区域
@@ -9,31 +9,17 @@ export default function Contact() {
   const contactLinks = [
     {
       name: 'Email',
-      value: 'your.email@example.com',
-      href: 'mailto:your.email@example.com',
+      value: '402242341@qq.com',
+      href: 'mailto:402242341@qq.com',
       icon: Mail,
       color: 'from-red-500 to-orange-500'
     },
     {
       name: 'GitHub',
       value: 'github.com/yourusername',
-      href: 'https://github.com/yourusername',
+      href: 'https://github.com/HYRYG302',
       icon: Github,
       color: 'from-gray-500 to-gray-700'
-    },
-    {
-      name: 'LinkedIn',
-      value: 'linkedin.com/in/yourusername',
-      href: 'https://linkedin.com/in/yourusername',
-      icon: Linkedin,
-      color: 'from-blue-500 to-blue-700'
-    },
-    {
-      name: 'Twitter',
-      value: '@yourusername',
-      href: 'https://twitter.com/yourusername',
-      icon: Twitter,
-      color: 'from-sky-400 to-sky-600'
     }
   ];
 
